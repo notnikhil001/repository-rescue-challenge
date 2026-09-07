@@ -3,7 +3,7 @@ const { PORT } = require('./src/config');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send(`DevOps assessment app is running on port ${PORT}`);
+  res.send(`DevOps assessment solution app is running on port ${PORT}`);
 });
 
 app.listen(PORT, () => {
